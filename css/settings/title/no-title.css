@@ -1,0 +1,7 @@
+.box {
+	padding: 30px 30px 30px;
+}
+
+.box h4 {
+	display: none !important;
+}

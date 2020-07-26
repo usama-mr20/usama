@@ -1,0 +1,24 @@
+.box,
+.about .inter-icon i:after,
+.portfolio .portfolio-filter ul,
+.blog-list .blog-post .main .detalis,
+.blog-list .side-left {
+	background-color: transparent;
+}
+
+.resume .experience .main svg {
+	background: transparent;
+}
+
+.about .photo:before,
+.about .photo:after,
+.btn-st-item:before,
+.btn-st-item:after,
+.about .inter-icon:before,
+.about .inter-icon:after,
+.blog-list .side-left .tags ul li a:before,
+.blog-list .side-left .tags ul li a:after,
+.blog-page .blog-comments ul li ul:after,
+.blog-page .blog-comments ul li ul:before {
+	border: none;
+}

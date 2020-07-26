@@ -1,0 +1,202 @@
+body {
+	text-align: right;
+}
+
+.bar {
+	left: 10px;
+    right: unset;
+}
+
+.logo {
+    left: unset;
+    right: 30px;
+}
+
+.box h4 {
+    right: -30px;
+}
+
+/* About */
+.about .info-icon svg {
+    float: right;
+	margin-right: 0;
+    margin-left: 15px;
+}
+
+/* Video & Fact Me */
+.about .counter-item i {
+    float: right;
+	margin-right: 0;
+    margin-left: 25px;
+}
+
+/* My Interests */
+.about .inter-icon i {
+    float: right;
+	margin-right: 0;
+    margin-left: 30px;
+}
+
+.about .inter-icon i:after {
+    left: unset;
+	right: 40px;
+}
+
+/* Testimonial */
+.testimonial-content .rating {
+    float: left;
+}
+
+.testimonial-pagination {
+    right: auto !important;
+    left: 0 !important;
+}
+
+/* Skill */
+.resume .skill-item .progress .progress-value {
+    left: 0;
+	right: unset;
+}
+
+/* Experience */
+.resume .experience .item {
+	padding-left: 0;
+    padding-right: 40px;
+}
+
+.resume .experience .item:before {
+	left: unset;
+	right: 0;
+}
+
+.resume .experience .main svg {
+    right: -15px;
+    left: unset;
+}
+
+.resume .experience .main p i {
+	margin-left: 5px;
+    margin-right: 0;
+}
+
+.resume .price .list-price ul li strong {
+    margin: 0 10px 0 0;
+}
+
+/* Client */
+.owl-carousel .owl-stage-outer {
+	direction: ltr;
+}
+
+/* Portfolio */
+.portfolio .item-card p {
+    left: unset;
+    right: 0;
+    -webkit-transform: translateX(150%);
+    		transform: translateX(150%);
+}
+
+.portfolio .item-card .info {
+    right: 20px;
+    left: unset;
+    text-align: right;
+}
+
+.portfolio .item-card svg {
+    left: 20px;
+	right: unset;
+}
+
+.portfolio .item-card p i {
+	margin-left: 5px;
+    margin-right: 0;
+}
+
+/* Contact */
+.label-form i, .textarea-form i {
+	left: 20px;
+    right: unset;
+}
+
+/* Blog list */
+.blog-list .blog-head .head-breadcrumb li {
+	margin-left: 10px;
+	margin-right: 0;
+    padding-left: 10px;
+    padding-right: 0;
+}
+
+.blog-list .blog-head .head-breadcrumb li:after {
+    content: "\f104";
+    left: -6px;
+	right: unset;
+}
+
+.blog-page .blog-head .bread-crumb li,
+.blog-list .blog-head .bread-crumb li {
+	margin-left: 15px;
+	margin-right: 0;
+}
+
+.music-bg.blog-music {
+    left: 60px;
+    right: unset;
+}
+
+.blog-list .side-left .search .input-group .input-group-text {
+    padding: 5px 15px 5px 0;
+}
+
+.blog-list .side-left h5 {
+    margin-left: 0;
+	margin-right: 10px;
+}
+
+.blog-list .side-left .categories ul li,
+.blog-list .side-left .archives ul li {
+	padding: 15px 20px 15px 10px;
+}
+
+.blog-list .side-left .categories ul li:before,
+.blog-list .side-left .archives ul li:before {
+    left: unset;
+    right: 0;
+}
+
+.blog-list .side-left .news img {
+    margin-left: 15px;
+	margin-right: 0;
+}
+
+.blog-list .side-left .news p i {
+    margin-left: 5px;
+	margin-right: 0;
+}
+
+/* Blog page */
+.blog-page .blog-nav a:not(:last-child) {
+	border-right: none;
+    border-left: 1px solid rgba(255,255,255,0.15);
+}
+
+.blog-page .blog-content .desc span:after {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.blog-page .blog-comments ul .author-img {
+    float: right;
+    margin-left: 20px;
+	margin-right: 0;
+}
+
+.blog-page .blog-comments ul li .comment-text a {
+    float: left;
+	margin-left: 15px;
+    margin-right: 0;
+}
+
+.blog-page .blog-comments ul li ul {
+    margin-left: 0;
+	margin-right: 60px;
+}

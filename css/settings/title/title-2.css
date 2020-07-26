@@ -1,0 +1,30 @@
+.box h4 {
+	position: relative;
+	width: calc(100% + 60px);
+	left: -30px;
+	top: -20px;
+	text-align: center;
+	font-size: 17px;
+	display: block;
+	padding: 50px 0 70px;
+}
+
+.box h4:after {
+   position: absolute;
+   content: "\f192";
+   font-family: 'Font Awesome 5 Free';
+   font-weight: 400;
+   bottom: 25px;
+   left: 50%;
+   transform: translateX(-50%);
+}
+
+.box h4:before {
+	position: absolute;
+	content: '';
+	width: 80px;
+	height: 1px;
+	left: 50%;
+	bottom: 35px;
+	transform: translateX(-50%);
+}

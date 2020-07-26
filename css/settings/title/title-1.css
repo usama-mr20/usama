@@ -1,0 +1,18 @@
+.box h4 {
+	position: relative;
+	left: 0 !important;
+    right: 0 !important;
+	font-size: 17px;
+	margin-bottom: 30px;
+	padding: 10px 0px 20px;
+	background-color: transparent !important;
+}
+
+.box h4:after {
+	content: '';
+	position: absolute;
+	width: calc(100% + 60px);
+	height: 2px;
+	left: -30px;
+	bottom: 0;
+}
